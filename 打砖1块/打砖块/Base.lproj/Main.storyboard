@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="eGC-lL-v4u">
+                                <rect key="frame" x="69" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="8o7-cr-Q59">
+                                <rect key="frame" x="138" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDo-Of-IOL">
+                                <rect key="frame" x="207" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-nv-Cj4">
+                                <rect key="frame" x="275" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ee5-1U-yoM">
+                                <rect key="frame" x="343" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="5M8-xq-Fla">
+                                <rect key="frame" x="70" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="XvM-sD-N6v">
+                                <rect key="frame" x="139" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="ktX-0G-j05">
+                                <rect key="frame" x="208" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="eA7-JA-hhb">
+                                <rect key="frame" x="276" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jco-Bd-LiI">
+                                <rect key="frame" x="1" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="YmW-CQ-as0">
+                                <rect key="frame" x="70" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="U5b-Dz-gYp">
+                                <rect key="frame" x="139" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="3k8-tU-bTp">
+                                <rect key="frame" x="208" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="wic-8a-uNA">
+                                <rect key="frame" x="276" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mr8-MY-3K6">
+                                <rect key="frame" x="344" y="40" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="FQj-dm-I4a">
+                                <rect key="frame" x="1" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Glr-aa-uRZ">
+                                <rect key="frame" x="70" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="NBc-sj-FY4">
+                                <rect key="frame" x="139" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mze-2Q-eAE">
+                                <rect key="frame" x="208" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xb7-xs-xQA">
+                                <rect key="frame" x="276" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="5n7-Qk-x5z">
+                                <rect key="frame" x="344" y="59" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="nvv-LJ-fF9">
+                                <rect key="frame" x="182" y="563" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nhj-Fa-WGq">
+                                <rect key="frame" x="0.0" y="0.0" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="xhc-TQ-B7e">
+                                <rect key="frame" x="1" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="LMf-dd-fZf">
+                                <rect key="frame" x="345" y="20" width="69" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dqI-cB-DlH">
+                                <rect key="frame" x="70" y="584" width="249" height="20"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7778953765377854" green="0.7778953765377854" blue="0.7778953765377854" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="ballImage" destination="nvv-LJ-fF9" id="boz-EY-zkf"/>
+                        <outlet property="paddleImage" destination="dqI-cB-DlH" id="Ufg-0K-mSr"/>
+                        <outletCollection property="blockImageArray" destination="Nhj-Fa-WGq" id="hjf-wM-oy1"/>
+                        <outletCollection property="blockImageArray" destination="8o7-cr-Q59" id="L1t-Md-8Hs"/>
+                        <outletCollection property="blockImageArray" destination="TDo-Of-IOL" id="cBR-EV-jmA"/>
+                        <outletCollection property="blockImageArray" destination="6AR-nv-Cj4" id="ZXT-c0-tbj"/>
+                        <outletCollection property="blockImageArray" destination="Ee5-1U-yoM" id="UTJ-r0-5DZ"/>
+                        <outletCollection property="blockImageArray" destination="xhc-TQ-B7e" id="04I-4z-6XE"/>
+                        <outletCollection property="blockImageArray" destination="5M8-xq-Fla" id="U4Z-xv-jod"/>
+                        <outletCollection property="blockImageArray" destination="XvM-sD-N6v" id="wPh-hL-h6Q"/>
+                        <outletCollection property="blockImageArray" destination="ktX-0G-j05" id="nwy-xM-8Ba"/>
+                        <outletCollection property="blockImageArray" destination="eA7-JA-hhb" id="PY3-Ph-NaQ"/>
+                        <outletCollection property="blockImageArray" destination="LMf-dd-fZf" id="sfa-fh-H8L"/>
+                        <outletCollection property="blockImageArray" destination="Jco-Bd-LiI" id="i3e-Fo-RYi"/>
+                        <outletCollection property="blockImageArray" destination="YmW-CQ-as0" id="b4C-p0-Fye"/>
+                        <outletCollection property="blockImageArray" destination="U5b-Dz-gYp" id="VQG-ND-xHO"/>
+                        <outletCollection property="blockImageArray" destination="3k8-tU-bTp" id="s6k-G1-LZr"/>
+                        <outletCollection property="blockImageArray" destination="wic-8a-uNA" id="gPd-2l-gJY"/>
+                        <outletCollection property="blockImageArray" destination="Mr8-MY-3K6" id="AAt-0t-Sik"/>
+                        <outletCollection property="blockImageArray" destination="5n7-Qk-x5z" id="P2D-ag-YhD"/>
+                        <outletCollection property="blockImageArray" destination="Xb7-xs-xQA" id="AQn-Zk-G1b"/>
+                        <outletCollection property="blockImageArray" destination="Mze-2Q-eAE" id="0r6-OR-tsY"/>
+                        <outletCollection property="blockImageArray" destination="NBc-sj-FY4" id="ah9-C5-fcL"/>
+                        <outletCollection property="blockImageArray" destination="Glr-aa-uRZ" id="C2S-Gy-X52"/>
+                        <outletCollection property="blockImageArray" destination="FQj-dm-I4a" id="dLe-N2-Dl4"/>
+                        <outletCollection property="blockImageArray" destination="eGC-lL-v4u" id="rbu-2p-tcd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="414"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball.png" width="20" height="20"/>
+        <image name="blue.png" width="128" height="40"/>
+        <image name="green.png" width="128" height="40"/>
+        <image name="paddle.png" width="64" height="20"/>
+        <image name="red.png" width="128" height="40"/>
+        <image name="yellow.png" width="128" height="40"/>
+    </resources>
+</document>
